@@ -15,9 +15,11 @@
     "vue-class-component": "^6.0.0",
     "vue-property-decorator": "^6.0.0",
     "vue-router": "^3.0.1",
+    "vuetify": "^1.0.19",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
+    "@babel/polyfill": "^7.0.0-beta.49",
     "@types/jest": "^22.0.1",
     "@vue/cli-plugin-babel": "^3.0.0-beta.15",
     "@vue/cli-plugin-e2e-cypress": "^3.0.0-beta.15",
@@ -31,6 +33,7 @@
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
     "ts-jest": "^22.4.6",
+    "vue-cli-plugin-vuetify": "^0.1.5",
     "vue-template-compiler": "^2.5.16"
   },
   "browserslist": [
