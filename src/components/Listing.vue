@@ -59,7 +59,7 @@ import { Component, Vue } from 'vue-property-decorator';
         },
         {
           id: 54201473,
-          image: 'https://img.yapo.cl/images/97/9783593378.jpg',
+          image: 'https://img.yapo.cl/thumbsapps/97/9783593378.jpg',
           link:
             'https://www.yapo.cl/region_metropolitana/computadores/netbook_rosado_54201473.htm',
           region: 'Región Metropolitana',
@@ -93,7 +93,7 @@ import { Component, Vue } from 'vue-property-decorator';
         },
         {
           id: 54201468,
-          image: 'https://img.yapo.cl/images/97/9755783804.jpg',
+          image: 'https://img.yapo.cl/thumbsapps/97/9755783804.jpg',
           link:
             'https://www.yapo.cl/region_metropolitana/calzado/zapatillas_por_mayor_54201468.htm',
           region: 'Región Metropolitana',
@@ -110,7 +110,7 @@ import { Component, Vue } from 'vue-property-decorator';
         },
         {
           id: 54201466,
-          image: 'https://img.yapo.cl/images/97/9738801099.jpg',
+          image: 'https://img.yapo.cl/thumbsapps/97/9738801099.jpg',
           link:
             'https://www.yapo.cl/region_metropolitana/celulares/celulares_own_s4035_4g_54201466.htm',
           region: 'Región Metropolitana',
@@ -127,7 +127,7 @@ import { Component, Vue } from 'vue-property-decorator';
         },
         {
           id: 54201464,
-          image: 'https://img.yapo.cl/images/97/9720214981.jpg',
+          image: 'https://img.yapo.cl/thumbsapps/97/9720214981.jpg',
           link:
             'https://www.yapo.cl/region_metropolitana/ofertas_de_empleo/garzones_54201464.htm',
           region: 'Región Metropolitana',
@@ -144,7 +144,7 @@ import { Component, Vue } from 'vue-property-decorator';
         },
         {
           id: 54201463,
-          image: 'https://img.yapo.cl/images/97/9741121138.jpg',
+          image: 'https://img.yapo.cl/thumbsapps/97/9741121138.jpg',
           link:
             'https://www.yapo.cl/region_metropolitana/computadores/egpu_notebook___fuente_de_poder_54201463.htm',
           region: 'Región Metropolitana',
@@ -161,7 +161,7 @@ import { Component, Vue } from 'vue-property-decorator';
         },
         {
           id: 54201460,
-          image: 'https://img.yapo.cl/images/97/9794361463.jpg',
+          image: 'https://img.yapo.cl/thumbsapps/97/9794361463.jpg',
           link:
             'https://www.yapo.cl/region_metropolitana/consolas_videojuegos/juegos_wii_wiiu_nintendo_ds_3ds_54201460.htm',
           region: 'Región Metropolitana',
@@ -178,7 +178,7 @@ import { Component, Vue } from 'vue-property-decorator';
         },
         {
           id: 54201459,
-          image: 'https://img.yapo.cl/images/97/9770342326.jpg',
+          image: 'https://img.yapo.cl/thumbsapps/97/9770342326.jpg',
           link:
             'https://www.yapo.cl/region_metropolitana/celulares/huawei_y7__54201459.htm',
           region: 'Región Metropolitana',
@@ -195,7 +195,7 @@ import { Component, Vue } from 'vue-property-decorator';
         },
         {
           id: 54201456,
-          image: 'https://img.yapo.cl/images/97/9784437870.jpg',
+          image: 'https://img.yapo.cl/thumbsapps/97/9784437870.jpg',
           link:
             'https://www.yapo.cl/region_metropolitana/autos/oferta_volkswagen_gol_g5_2011_54201456.htm',
           region: 'Región Metropolitana',
@@ -229,7 +229,7 @@ import { Component, Vue } from 'vue-property-decorator';
         },
         {
           id: 54002697,
-          image: 'https://img.yapo.cl/images/90/9037512075.jpg',
+          image: 'https://img.yapo.cl/thumbsapps/90/9037512075.jpg',
           link:
             'https://www.yapo.cl/region_metropolitana/muebles/nuevo_sofa_marca_mica_modelo_tofu_54002697.htm',
           region: 'Región Metropolitana',
@@ -246,7 +246,7 @@ import { Component, Vue } from 'vue-property-decorator';
         },
         {
           id: 53998321,
-          image: 'https://img.yapo.cl/images/90/9062001423.jpg',
+          image: 'https://img.yapo.cl/thumbsapps/90/9062001423.jpg',
           link:
             'https://www.yapo.cl/region_metropolitana/celulares/samsung_s8_plus_53998321.htm',
           region: 'Región Metropolitana',
@@ -263,7 +263,7 @@ import { Component, Vue } from 'vue-property-decorator';
         },
         {
           id: 53694503,
-          image: 'https://img.yapo.cl/images/79/7914925387.jpg',
+          image: 'https://img.yapo.cl/thumbsapps/79/7914925387.jpg',
           link:
             'https://www.yapo.cl/region_metropolitana/jardin_herramientas/taladro_atornillador_inalambrico_s_carbones_dewalt_53694503.htm',
           region: 'Región Metropolitana',
@@ -280,7 +280,7 @@ import { Component, Vue } from 'vue-property-decorator';
         },
         {
           id: 52957582,
-          image: 'https://img.yapo.cl/images/53/5302095862.jpg',
+          image: 'https://img.yapo.cl/thumbsapps/53/5302095862.jpg',
           link:
             'https://www.yapo.cl/region_metropolitana/negocios_maquinaria_construccion/soldadora_mig_con_y_sin_gas_200amp_energy_52957582.htm',
           region: 'Región Metropolitana',
@@ -297,7 +297,7 @@ import { Component, Vue } from 'vue-property-decorator';
         },
         {
           id: 52738305,
-          image: 'https://img.yapo.cl/images/45/4520529162.jpg',
+          image: 'https://img.yapo.cl/thumbsapps/45/4520529162.jpg',
           link:
             'https://www.yapo.cl/region_metropolitana/negocios_maquinaria_construccion/soldadora_inverter_tig_gladiator_52738305.htm',
           region: 'Región Metropolitana',
@@ -314,7 +314,7 @@ import { Component, Vue } from 'vue-property-decorator';
         },
         {
           id: 51900825,
-          image: 'https://img.yapo.cl/images/16/1618559789.jpg',
+          image: 'https://img.yapo.cl/thumbsapps/16/1618559789.jpg',
           link:
             'https://www.yapo.cl/region_metropolitana/negocios_maquinaria_construccion/soldadora_inverter_electrodo_energy_51900825.htm',
           region: 'Región Metropolitana',
@@ -331,7 +331,7 @@ import { Component, Vue } from 'vue-property-decorator';
         },
         {
           id: 51889651,
-          image: 'https://img.yapo.cl/images/16/1645773370.jpg',
+          image: 'https://img.yapo.cl/thumbsapps/16/1645773370.jpg',
           link:
             'https://www.yapo.cl/region_metropolitana/negocios_maquinaria_construccion/soldadora_inverter_gladiator_51889651.htm',
           region: 'Región Metropolitana',
@@ -348,7 +348,7 @@ import { Component, Vue } from 'vue-property-decorator';
         },
         {
           id: 51117878,
-          image: 'https://img.yapo.cl/images/90/9046215432.jpg',
+          image: 'https://img.yapo.cl/thumbsapps/90/9046215432.jpg',
           link:
             'https://www.yapo.cl/region_metropolitana/jardin_herramientas/juego_de_atornillador_de_impacto_dewalt_51117878.htm',
           region: 'Región Metropolitana',
@@ -365,7 +365,7 @@ import { Component, Vue } from 'vue-property-decorator';
         },
         {
           id: 46877761,
-          image: 'https://img.yapo.cl/images/55/5579443489.jpg',
+          image: 'https://img.yapo.cl/thumbsapps/55/5579443489.jpg',
           link:
             'https://www.yapo.cl/region_metropolitana/negocios_maquinaria_construccion/sierra_de_banco_de_254mm__10__dewalt_46877761.htm',
           region: 'Región Metropolitana',
@@ -382,7 +382,7 @@ import { Component, Vue } from 'vue-property-decorator';
         },
         {
           id: 42225297,
-          image: 'https://img.yapo.cl/images/05/0535360650.jpg',
+          image: 'https://img.yapo.cl/thumbsapps/05/0535360650.jpg',
           link:
             'https://www.yapo.cl/region_metropolitana/negocios_maquinaria_construccion/siding_fibrocemento_osb_internit_42225297.htm',
           region: 'Región Metropolitana',
