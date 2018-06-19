@@ -70,12 +70,18 @@ export default class DSUtils {
     public static serialize(body: any): string {
         if (body && typeof (body) === 'object') {
             return `?${Object.keys(body).reduce((a: any, k: string) => {
-                a.push(`${k}=${ encodeURIComponent(body[k])}`);
+                if (!this.isObjectEmpty(body[k])) {
+                    a.push(`${k}=${ encodeURIComponent(body[k])}`);
+                }
                 return a;
             }, []).join('&')}`;
         } else if (typeof (body) === 'string' && body.substring(0, 1) === '?') {
             return body;
         }
         return '';
+    }
+
+    private static isObjectEmpty(object: any): boolean {
+        return Object.keys(object).length === 0 && object.constructor === Object;
     }
 }

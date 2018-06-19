@@ -3,8 +3,12 @@ import {MutationTree} from 'vuex';
 
 
 export const mutations: MutationTree<ListingState> = {
-    SET_ADS(state, payload: Ad[]) {
+    LISTING_LOADED(state, payload: Ad[]) {
         state.error = false;
         state.ads = payload;
+    },
+    LISTING_ERROR(state) {
+        state.error = true;
+        state.ads = undefined;
     },
 };

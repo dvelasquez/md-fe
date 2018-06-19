@@ -1,21 +1,31 @@
 <template>
-  <div class="home">
-    <img src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
-    <Listing></Listing>
-  </div>
+    <div class="home">
+        {{listing}}
+        <Listing></Listing>
+    </div>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from 'vue-property-decorator';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
-import Listing from '@/components/Listing.vue'; // @ is an alias to /src
+    import {Component, Vue} from 'vue-property-decorator';
+    import {Action, State} from 'vuex-class';
+    import Listing from '@/components/Listing.vue';
+    import {ListingState} from '../store/types';
 
-@Component({
-  components: {
-    HelloWorld,
-    Listing,
-  },
-})
-export default class Home extends Vue {}
+    const namespace: string = 'listing';
+
+    @Component({
+        components: {
+            Listing,
+        },
+    })
+    export default class Home extends Vue {
+        @State('listing')
+        private listing!: ListingState;
+        @Action('getAds', {namespace})
+        private getAds: any;
+
+        private mounted() {
+            this.getAds();
+        }
+    }
 </script>

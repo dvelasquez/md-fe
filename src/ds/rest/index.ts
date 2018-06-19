@@ -29,7 +29,7 @@ export default class RestDS implements CRUD {
      * @param endpoint String REST endpoint (ie: https://api.org/
      * @param headers Object Header object (ie: { 'Content-Type': 'application/json'})
      */
-    constructor(endpoint: string, headers: string) {
+    constructor(endpoint: string, headers: any) {
         this.endpoint = DSUtils.validateEndpoint(endpoint);
         this.headers = RestDS.setCustomHeaders(headers);
         this.dsUtils = DSUtils;

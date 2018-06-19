@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Vuex, {StoreOptions} from 'vuex';
 import {listing} from './listing';
-import RootState from '@/store/types';
+import {RootState} from '@/store/types';
 
 Vue.use(Vuex);
 
