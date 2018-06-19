@@ -1,9 +1,10 @@
-import {Ad} from '@/store/types';
+import {Ad, ListingState} from '@/store/types';
+import {MutationTree} from 'vuex';
 
-const SET_ADS = (state: any, ads: Ad[]) => {
-    state.ads = ads;
-};
 
-export default {
-    SET_ADS,
+export const mutations: MutationTree<ListingState> = {
+    SET_ADS(state, payload: Ad[]) {
+        state.error = false;
+        state.ads = payload;
+    },
 };

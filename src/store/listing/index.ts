@@ -1,8 +1,8 @@
 import {Module} from 'vuex';
-import actions from './actions';
-import getters from './getters';
-import mutations from './mutations';
-import {default as RootState, ListingState} from '@/store/types';
+import {actions} from './actions';
+import {getters} from './getters';
+import {mutations} from './mutations';
+import {ListingState, RootState} from '@/store/types';
 
 export const state: ListingState = {
     ads: undefined,

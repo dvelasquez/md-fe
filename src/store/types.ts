@@ -1,5 +1,5 @@
 
-export default interface RootState {
+export interface RootState {
     version: string;
     ads?: ListingState;
 }
