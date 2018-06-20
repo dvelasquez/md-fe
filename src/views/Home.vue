@@ -1,7 +1,6 @@
 <template>
     <div class="home">
-        {{listing}}
-        <Listing></Listing>
+        <Listing :ads="listing.ads"></Listing>
     </div>
 </template>
 
